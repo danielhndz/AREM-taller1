@@ -1,0 +1,9 @@
+edu/escuelaing/arep/cache/Cache.class
+edu/escuelaing/arep/Launcher.class
+edu/escuelaing/arep/apis/OMDbAPI.class
+edu/escuelaing/arep/client/IDClients.class
+edu/escuelaing/arep/utils/FilesReader.class
+edu/escuelaing/arep/services/MovieSearchService.class
+edu/escuelaing/arep/client/Client.class
+edu/escuelaing/arep/utils/RequestProcessor.class
+edu/escuelaing/arep/server/HttpServer.class
