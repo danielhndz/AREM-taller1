@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>AREP - Taller 1 - MSE</title>
+  </head>
+  <body>
+    <h1>Movie Search Engine <sub>Powered by OMDb API</sub></h1>
+    <br />
+    <h3>¡Busca una película!</h3>
+    <form class="form" onsubmit="loadPostMsg(postname)" method="dialog">
+      <label for="name">Título:</label>
+      <input
+        type="text"
+        name="t"
+        id="postname"
+        placeholder="The lord of the rings"
+        required
+      /><br />
+      <input
+        class="btn"
+        type="button"
+        value="Buscar"
+        onclick="loadPostMsg(postname)"
+      />
+    </form>
+    <br />
+    <div class="container" id="response"></div>
+  </body>
+</html>
