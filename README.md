@@ -131,9 +131,7 @@ mvn test
 
 Los nombres de los paquetes intentan ser representativos en términos de la funcionalidad que está implementada en dicho paquete. La clase [Launcher](/src/main/java/edu/escuelaing/arep/Launcher.java) arranca el proyecto.
 
-- [Diagrama de paquetes con clases](/src/main/java/edu/escuelaing/arep/)
-
-![Diagrama de paquetes con clases](../media/pkg_simple.png?raw=true)
+![Diagrama de paquetes con clases](../media/pkgs_simple.png?raw=true)
 
 - Dado que la persistencia de datos se encuentra implementada en memoria, es la clase [Cache](/src/main/java/edu/escuelaing/arep/cache/Cache.java) del paquete [Cache](/src/main/java/edu/escuelaing/arep/cache/) la que se encarga de almacenar las consultas que son creadas por los usuarios. Esta clase implementa el patrón `singleton`.
 
